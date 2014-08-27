@@ -11,4 +11,7 @@ Question 3:
 Read any char from the set “VIBGYOR” and display the corresponding color.
 (V: violet, I: indigo, B: blue, G: green, Y: yellow, O: orange, R: red)
 
+Question 4:
+Find the age of a person if he/she enters birth date
+
 
