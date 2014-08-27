@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+
+			function area(){
+				var radius = document.getElementById("demo").value;
+				radius = parseInt(radius);
+				var area_circle = Math.PI * radius * radius;
+				document.write("The area is :" + area_circle + "<br>");
+			}
+			function diameter(){
+				var radius2 = document.getElementById("demo").value;
+				radius2 = parseInt(radius2);
+				var diameter_circle = 2 * Math.PI * radius2;
+				document.write("The diameter is :" + diameter_circle + "<br>");
+			}
+		</script>
+		
+			Input the radius of a circle: <input type="text" id="demo" name="string"></br>
+			<input type="button" value="area" onclick="area()"/>
+			<input type="button" value="diameter" onclick="diameter()"/>
+
+		
+	</body>
+</html>

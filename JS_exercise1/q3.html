@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<p></p>
+		<script>
+			function displayColor(){
+				var c = document.getElementById("demo").value;
+				c = c.toLowerCase();
+				switch (c){
+					case 'v':
+						document.write("<font color='violet'>This is violet color!</font>");
+						break;
+					case 'i':
+						document.write("<font color='indigo'>This is indigo color!</font>");
+						break;
+					case 'b':
+						document.write("<font color='blue'>This is blue color!</font>");
+						break;
+					case 'g':
+						document.write("<font color='green'>This is green color!</font>");
+						break;
+					case 'y':
+						document.write("<font color='yellow'>This is yellow color!</font>");
+						break;
+					case 'o':
+						document.write("<font color='orange'>This is orange color!</font>");
+						break;
+					case 'r':
+						document.write("<font color='red'>This is red color!</font>");
+						break;
+					default:
+						alert("Color can not be recognized!");
+				}
+			}
+		</script>
+		
+			Input a color: <input type="text" id="demo" name="string"></br>
+			<input type="button" value="string" onclick="displayColor()"/>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Implement a stack.</p>
+
+<p id="demo1"></p><br>
+<p id="demo2"></p>
+
+<input type="button" value="push_stack" onclick="push_stack()"/>
+<input type="button" value="pop_stack" onclick="pop_stack()"/>
+<input type="button" value="displayAll" onclick="displayAll()"/>
+
+<script>
+	var size = 0;
+	var stack = new Array();
+function push_stack() {
+
+	var element = prompt("Please enter your element.");
+	stack.push(element);
+	size++;
+	
+}
+
+function displayAll(){
+	
+	document.getElementById("demo1").innerHTML = stack;
+	document.getElementById("demo2").innerHTML = size;
+}
+
+function pop_stack(){
+	document.getElementById("demo1").innerHTML = stack.pop();
+	document.getElementById("demo2").innerHTML = size--;
+}
+
+</script>
+
+</body>
+</html>

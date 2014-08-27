@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+			function squareNum(){
+				var num = document.getElementById("demo").value;
+				num = parseInt(num);
+				document.write(num * num);
+			}
+			function squareRoot(){
+				var num = document.getElementById("demo").value;
+				num = parseInt(num);
+				num = Math.sqrt(num);
+				document.write(num);
+			}
+		</script>
+		
+			Input a Number: <input type="number" id="demo" name="number"></br>
+			<input type="button" value="square" onclick="squareNum()"/>
+			<input type="button" value="SquareRoot" onclick="squareRoot()"/>
+		
+	</body>
+</html>

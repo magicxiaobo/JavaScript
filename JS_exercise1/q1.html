@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+			function palindrome(){
+				var str = document.getElementById("demo").value;
+				var revStr = str.split("").reverse().join("");
+				
+				if(str == revStr){
+					document.write("true");
+				}else{
+					document.write("false");
+				}
+				
+			}
+			
+		</script>
+		
+			Input a string: <input type="text" id="demo" name="string"></br>
+			<input type="button" value="submit" onclick="palindrome()"/>
+		
+	</body>
+</html>
