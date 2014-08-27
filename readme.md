@@ -14,4 +14,7 @@ Read any char from the set “VIBGYOR” and display the corresponding color.
 Question 4:
 Find the age of a person if he/she enters birth date
 
+Question 5:
+Find area and diameter of circle (input = radius, write two seperate methods)
+
 
