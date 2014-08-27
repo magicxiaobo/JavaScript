@@ -1,4 +1,4 @@
-﻿
+﻿Exercise 1:
 
 Question 1:
 Writing Java Script code to determine if a given string is Palindrome.
