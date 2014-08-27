@@ -1,4 +1,6 @@
-﻿Question 1:
+﻿
+
+Question 1:
 Writing Java Script code to determine if a given string is Palindrome.
 e.g. ABCBA
 Reverse is also ABCBA
@@ -17,4 +19,7 @@ Find the age of a person if he/she enters birth date
 Question 5:
 Find area and diameter of circle (input = radius, write two seperate methods)
 
+Question 6:
+Implement a Stack with array in JavaScript
+Implement push_stack, pop_stack and displayAll functions.
 
